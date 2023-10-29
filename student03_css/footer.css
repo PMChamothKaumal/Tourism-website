@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato&display=swap');
+
+
+.content {
+    width: 100%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.footer-grids {
+    background: #282828;
+    height: 265px;
+    padding-left: 40px;
+}
+
+p.footer-gd {
+    color: #908F8F;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+
+.footer {
+    float: left;
+}
+
+.footer h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.footer.one {
+    width: 35%;
+}
+
+.footer.two {
+    width: 23%;
+}
+
+.footer.one p {
+    color: #908F8F;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+
+.footer.two p {
+    color: #908F8F;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+
+.copy-right-grids {
+    padding: 10px;
+    background: #211E1E;
+    height: 60px;
+}
+
+.copy-left {
+    float: left;
+}
+
+

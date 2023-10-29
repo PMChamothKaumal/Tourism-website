@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato&display=swap');
+
+.head{
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.fort, .beach, .hill{
+    background:#CCCECD;
+	width:450px;
+    height: 1100px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+.content{
+    text-align: center;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    color: #0e0a00;
+    height: 100px;
+    margin: auto;
+    width: 68%;
+    line-height: 1.6;
+    padding-bottom: 20px;
+    justify-content: center;
+
+}
+.img{
+    width: 350px;
+    height: 400px;
+}
+h1,h2{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+p{
+    line-height: 28px;
+    text-align: center;
+    justify-content: center;
+
+}

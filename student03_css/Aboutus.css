@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+.img{
+    justify-content: center;
+
+}
+hr{
+    width: 20px;
+    color: #000;
+    
+}
+
+h1 {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color:black;
+}
+.Ab_us{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    color: #0e0a00;
+    height: 100px;
+    margin: auto;
+    width: 68%;
+    line-height: 1.6;
+    justify-content: center;
+
+    
+    
+}
+
+
+body {
+    background-image: url("railway.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+*, *:before, *:after {
+    box-sizing: initial;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: inline;
+    }
+}
+
+.rest {
+    position: relative;
+    width: 90%;
+    height: 10%;
+    
+}
+
+
+
+/*styling profile cards*/
+.section1, .section2, .section3, .section4, .section5 {
+    width: 250px;
+    height: 474px;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    -webkit-box-shadow: 5px 6px 32px 2px rgba(133, 133, 133, 0.71);
+    -moz-box-shadow: 5px 6px 32px 2px rgba(133, 133, 133, 0.71);
+    box-shadow: 5px 6px 32px 2px rgba(133, 133, 133, 0.71);
+    border-radius: 25px;
+    -o-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+    
+}
+
+.section1:hover, .section2:hover, .section3:hover, .section4:hover{
+    transform: scale(1.2);
+}
+
+.profileCover {
+    border-radius: 25px 25px 0 0;
+    filter: blur(5px);
+    -webkit-filter: blur(2px);
+}
+
+.team {
+    border-radius: 50%;
+    width: 55%;
+    height: 30%;
+    top: 23%;
+    position: absolute;
+    z-index: 5;
+    left: 22%;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    padding: 15px;
+    padding-bottom: 15px;
+    width: 219px;
+    height: 270px;
+    text-align: center;
+    font-size: 13px;
+    border-top: 2px solid white;
+    background-color: #858582;
+    border-radius: 0 0 25px 25px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: inline;
+}
+
+.title {
+    color: #ff9f43;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Century Gothic";
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+
+}
+
+
+/*social media logos*/
+.mail, .fb, .insta, .li {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.mail {
+    left: 15px;
+}
+
+.fb {
+    left: 43px;
+}
+
+.insta {
+    left: 71px;
+}
+
+.li {
+    left: 99px;
+}
+
+
+/*title name*/
+
+.bathiyaName, .kawshalyaName, .chamothName, .rehanName {
+    font-family: Cambria;
+    font-size: 20px;
+    position: absolute;
+    top: 17px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.67), 0 0 20px rgba(0, 0, 0, 0.41), 0 0 3px rgba(0, 0, 0, 0.11);
+    color: white;
+}
+
+.bathiyaName {
+    left: 23%;
+    font-size: 26px;
+}
+
+.kawshalyaName {
+    left: 20%;
+    font-size: 26px;
+}
+
+.chamothName {
+    left: 25%;
+    font-size: 26px;
+}
+
+.rehanName {
+    left:18%;
+    font-size: 26px;
+}
+
+#bathiya {
+    height: 170px;
+}
+
+#kawshalya {
+    height: 170px;
+}
+
+#chamoth {
+    height: 170px;
+}
+
+#rehan {
+    height: 170px;
+}
+
+
+/*read more button*/
+
+#readMore-bathi, #readMore-kaw, #readMore-chamo, #readMore-rehan {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ff9f43;
+    color: #323232;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+    bottom: 10px;
+    right: 13px;
+    position: absolute;
+    font-family: "Century Gothic";
+    font-size: 10px;
+    width: 60px;
+    height: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+
+#goBack-mano:hover, #goBack-nima:hover, #goBack-nip:hover, #goBack-jani:hover {
+    background-color: #555;
+}
+
+/*flip card animation and back side of the cards*/
+
+#card2-bathi, #card2-kaw, #card2-chamo, #card2-rehan, #card2-emp {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    width: 250px;
+    height: 474px;
+    top: 25%;
+    position: absolute;
+    border-radius: 25px;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+#card2-bathi {
+    left: -205%;
+}
+
+#card2-kaw {
+    left: -135%;
+}
+
+#card2-chamo {
+    left: -80%;
+}
+
+#card2-rehan {
+    left: -25%;
+}
+
+#card2-emp {
+    left: -25%;
+}
+
+#card1-bathi, #card1-kaw, #card1-chamo, #card1-rehan, #card1-emp {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    width: 250px;
+    top: 25%;
+    max-width: 300px;
+    max-height: 500px;
+    position: relative;
+    -o-perspective: 900px;
+    -webkit-perspective: 900px;
+    -ms-perspective: 900px;
+    perspective: 900px;
+    margin: 0 auto;
+}
+
+#card1-bathi {
+    left: 5%;
+}
+
+#card1-kaw {
+    left: 18%;
+}
+
+#card1-chamo {
+    left: 34%;
+}
+
+#card1-rehan {
+    left: 50%;
+}
+
+#card1-emp {
+    left: 50%;
+}
+
+
+#footer-content {
+    position: relative;
+    top: 700px;
+    left: -10px;
+    width: 1500px;
+}
+.hela{
+    font-size: 28px;
+}
+.text{
+    color: #908F8F;
+    padding-left: 20px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+
+.button{
+
+    width: 70px;
+    height: 50px;
+
+}
+.button:hover{
+    transform: scale(1.2);
+}
+

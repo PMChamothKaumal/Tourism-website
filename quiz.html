@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="student03_css/quiz.css" type="text/css">
+    <link rel="stylesheet" href="student03_css/footer.css">
+    <link rel="stylesheet" href="student03_css/navigation.css">
+    
+
+    <link rel="icon" type="image/png" sizes="16x16" href="student04_images/logo/LankaWhite.png">
+    
+    <title>Quiz</title>
+</head>
+<body style="background-image: url('whiterail.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+">
+
+<!--NAV BAR-->
+<div class="navheader">
+    <img class="logo" src="student03_images/logo2.png" alt="logo">
+    <nav>
+        <ul class="navLinks">
+            <li class="inactivenav"><a href="#">Home</a></li>
+            <li class="inactivenav"><a href="#">Comments</a></li>
+            <li class="activenav"><a href="#">Shop</a></li>
+            <li class="inactivenav"><a href="quiz.html">Quiz</a></li>
+            <li class="inactivenav"><a href="#">Site Map</a></li>
+            <li class="inactivenav"><a href="aboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
+    <button class="con">Contact</button>
+
+</div>
+
+
+<div class="quiz" style="margin-top: -30px;">
+
+    <div class="heading">
+        <h1 style="color:#333333;">Quiz</h1>
+    </div>
+    <div id="timer">
+        <h1 id="headerTimer" style="color: #333333">Time Left:</h1>
+        <h2 id="headerTimer2" style="color:#333333;">_</h2>
+    </div>
+
+    <div class="quiz_section">
+
+        <div class="question" id="questionBox">
+
+        </div>
+
+        <div class="options">
+            <ul id="ul">
+                <li id="op1" onclick="button(this)"></li>
+                <li id="op2" onclick="button(this)"></li>
+                <li id="op3" onclick="button(this)"></li>
+                <li id="op4" onclick="button(this)"></li>
+            </ul>
+        </div>
+        <div class="score_section">
+                <div class="next" style="padding-top: 20px">
+                    <button type="button" onclick="next()" id="button2">Next</button>
+                </div>
+            </div>
+            <div class="score-card">
+                Score : <span id="scoreCard">0</span>
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="student03_js/script.js"></script>
+
+<div id="footer-content">
+    <div class="footer-grids">
+        <div class="footer one" style="height: 235px; border-right: 2px solid #999; padding: 0 40px 0 0;">
+            <h3 style="text-align: right">Hela Lanka</h3>
+            <img class="logo" src="student03_images/logo2.png" alt="logo">
+            <p style="text-align: right" class="text">10, Trelawney Place,<br>Colombo 04,<br>Sri lanka.
+            </p>
+            <p style="padding-top: 20px; text-align: right" class="text">One of the best tourism page.All the Attractions included!</p>
+            <div class="clear"></div>
+        </div>
+        <div class="footer two">
+            <h3 style="padding-left: 40px">About us</h3>
+                <div class="text">We are 1st year students of University of westminster who graduated in 2026.
+                    our group has 4 members and they all completing the software engineering degree.
+                    <br>
+                    <p class="button"><a href="pageEditer.html">Page Editor</a></p>
+                </div>
+             
+    
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+    <div class="copy-right-grids">
+        <div class="copy-left">
+            <p class="footer-gd">2023 All Rights Reserved</p>
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+

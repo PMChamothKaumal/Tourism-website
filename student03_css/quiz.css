@@ -1,0 +1,192 @@
+#timer {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 0px;
+    font-size: 12.5pt;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.quiz{
+    height: 800px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 30px 0px -15px;
+}
+
+.quiz_section {
+    height: 400px;
+    width: 650px;
+    padding: 30px;
+    background-color: #ff9f43;
+    margin: 50px auto;
+    border-radius: 18px;
+}
+
+.quiz_section .question {
+    padding: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    float: left;
+    background-color: black;
+    border-radius: 8px;  
+    width: 100%;
+
+}
+
+.heading {
+    font-size: 30px;
+
+}
+
+.quiz_section .options {
+    float: left;
+    width: 100%;
+}
+
+.quiz_section .options ul {
+    list-style: none;
+    padding: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz_section .options ul li:hover{
+    transform: scale(1.1);
+}
+
+.quiz_section .options ul li {
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-size: 15px;
+    background-color: rgb(11, 11, 11);
+    width: 47%;
+    color: #ece4e4;
+    box-shadow: 0px 3px 0px grey;  
+    text-align: center;
+}
+
+.quiz_section .options ul li:active {
+    box-shadow: 0px 3px 0px transparent;
+
+}
+
+.quiz_section .options ul li.correct {
+    background-color: #0fd40f;
+    box-shadow: 0px 3px 0px #03a503;
+}
+
+.quiz_section .options ul li.wrong {
+    background-color: #e91e1e;
+    box-shadow: 0px 3px 0px #cb0b0b;
+}
+
+.quiz_section .score_section {
+    float: left;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.quiz_section .score_section .next {
+    width: 40%;
+    float: left;
+}
+
+.quiz_section .score_section .next button {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    padding: 15px 80px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px #c97a06;
+    outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato&display=swap');
+
+.quiz_section .score_section .next button:active {
+    box-shadow: 0px 3px 0px transparent;
+}
+
+.quiz_section .score_section .score-card {
+    width: 60%;
+    float: left;
+}
+
+.quiz_section .score_section .score-card {
+    font-size: 60px;
+    color: rgb(12, 12, 12);
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.quiz_section .score_section .score-card span {
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: black;
+    
+
+}
+
+#next {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+#button2{
+    position: absolute;
+    top: 99%;
+    right: 29%;
+    width: 250px;
+}
+
+#button2:hover{
+    transform: scale(1.2);
+}
+
+#button1:hover{
+    transform: scale(1.2);
+}
+
+.button{
+
+    width: 70px;
+    height: 50px;
+    color: #753a3a;
+    border-radius: 8px;
+}
+.button:hover{
+    transform: scale(1.2);
+}
+
+.text{
+    color: #908F8F;
+    padding-left: 20px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
